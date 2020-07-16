@@ -5,4 +5,4 @@ Um app para calcular as raízes de equações de segundo grau e plotar o gráfic
 
 
 
-![alt text](http://https://github.com/luizrosalba/equacoes2grau/blob/master/Capturar.PNG)
+![teste](https://raw.githubusercontent.com/luizrosalba/equacoes2grau/master/Capturar.PNG)
