@@ -48,10 +48,6 @@ namespace equacoes2grau
             // Set our view from the "main" layout resource
             SetContentView(Resource.Layout.activity_main);
 
-            
-
-
-
             botao1 = FindViewById<Button>(Resource.Id.botao1);
             botao1.Click += botao1Calcular_Click;
 
@@ -141,7 +137,7 @@ namespace equacoes2grau
             }
 
             verticex = (-1 * b) / (2 * a);
-            verticex = (-1 * deltacalc) / (4 * a);
+            verticey = (-1 * deltacalc) / (4 * a); 
             vertice.Text = " vx = " + verticex.ToString() + "  vy = " + verticey.ToString();
 
             if (a > 0)

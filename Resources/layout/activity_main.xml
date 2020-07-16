@@ -16,10 +16,12 @@
         android:id="@+id/linearLayout1">
         <TextView
             android:text="Insira A B e C :"
-            android:textAppearance="?android:attr/textAppearanceSmall"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:id="@+id/textView1" />
+            android:id="@+id/textView1"
+            android:textColor="#ff25e434"
+            android:typeface="sans"
+            android:textStyle="bold|normal" />
         <EditText
             android:inputType="numberSigned|numberDecimal"
             android:layout_width="match_parent"
